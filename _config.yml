@@ -14,15 +14,15 @@
 remote_theme : mmistakes/minimal-mistakes
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "default', "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "어떤 수학하는 학생의 블로그"
+title                    : "어떤 학생의 블로그"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+subtitle                 : "수학을 좋아하지만 수학 말고도 여러가지가 하고싶은 학생"# site tagline that appears below site title in masthead
+name                     : "Taewan"
+description              : # "An amazing website."
 url                      : "https://taewan0109.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -99,7 +99,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
-  email            :
+  email            : taewan0109@naver.com, cohomology0109@kakao.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -112,10 +112,10 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.facebook.com/profile.php?id=100024707091631"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      # url: "https://github.com/taewan0109"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -128,7 +128,7 @@ footer:
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      # url: 
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url:
@@ -140,8 +140,8 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
 
+      # url:
 
 # Reading Files
 include:
@@ -281,3 +281,10 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# Math equation
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
