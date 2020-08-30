@@ -20,7 +20,7 @@ minimal_mistakes_skin    : "dark" # "default', "air", "aqua", "contrast", "dark"
 locale                   : "ko-KR"
 title                    : "어떤 학생의 블로그"
 title_separator          : "-"
-subtitle                 : "수학을 좋아하지만 수학 말고도 여러가지가 하고싶은 학생"# site tagline that appears below site title in masthead
+subtitle                 : "수학을 좋아하지만 수학 말고도 여러가지가 하고싶은 학생..?"# site tagline that appears below site title in masthead
 name                     : "Taewan"
 description              : # "An amazing website."
 url                      : "https://taewan0109.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
